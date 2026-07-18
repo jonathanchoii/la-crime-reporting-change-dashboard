@@ -1,0 +1,28 @@
+# macOS files
+.DS_Store
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+*.env
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Keep placeholder files that preserve the folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Tableau extracts and temporary files
+*.hyper
+*.tmp
