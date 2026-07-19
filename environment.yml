@@ -1,0 +1,19 @@
+name: la-crime-analytics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - geopandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - sqlalchemy
+  - pymysql
+  - ipykernel
+  - openpyxl
+  - folium
+  - jupyterlab
+  - requests
+  - pyarrow
